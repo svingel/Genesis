@@ -1,7 +1,9 @@
 body {
+    margin: auto;
     width: 1360px;
     height: 2068px;
-    padding: 61px 125px 44px;
     box-sizing: border-box;
     background-color: white;
+    padding-left: 95px;
+    padding-right: 95px;
 }

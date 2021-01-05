@@ -10,11 +10,10 @@
     font-weight: 700;
 }
 
-.nav__links {
-    width: 162px;
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    font-family: Mulish, sans-serif;
+    width: 1110px;
+    padding-top: 87px;
 }
