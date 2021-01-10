@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: Mulish-Regular;
     src: url(../fonts/Mulish/Mulish-Regular.ttf);
@@ -13,17 +20,25 @@
 .footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    -webkit-column-gap: 45px;
+    -moz-column-gap: 45px;
+         column-gap: 45px;
     column-gap: 45px;
     row-gap: 30px;
     width: 1110px;
     height: 23px;
     padding-top: 132px;
+    -webkit-box-align: center;
     align-items: center;
 }
 
 .footer__links {
     grid-area: 1 / 2 / 2 / 3;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +46,11 @@
 
 .footer__socials {
     width: 95px;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
     flex-direction: row;
     justify-content: space-between;
 }

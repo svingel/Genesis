@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: Mulish-Regular;
     src: url(../fonts/Mulish/Mulish-Regular.ttf);
@@ -12,6 +19,10 @@
 
 .menu {
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
