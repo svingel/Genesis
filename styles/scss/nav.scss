@@ -1,0 +1,40 @@
+@import "_fonts";
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 23px;
+    padding-bottom: 110px;
+}
+
+.nav__links {
+    width: 162px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+//do poprawki z grid na flex
+.nav__wrapper {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__socials {
+    width: 95px;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
