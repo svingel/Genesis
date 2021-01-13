@@ -7,7 +7,6 @@
     align-items: center;
     width: 1110px;
     height: 23px;
-    padding-bottom: 110px;
 }
 
 .nav__links {
@@ -16,11 +15,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav__link {
     font-family: Mulish, sans-serif;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none;
+    color: black
 }
 
+.nav__link--thin {
+    @extend .nav__link;
+    line-height: 23px;
+    font-weight: 400;
+    opacity: 0.6;
+}
 
 //do poprawki z grid na flex
 .nav__wrapper {

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Mulish-Regular;
+  src: url(../../fonts/Mulish/Mulish-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Mulish-Bold;
+  src: url(../../fonts/Mulish/Mulish-Bold.ttf);
+  font-weight: 700;
+}
+.award {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  column-gap: 121px;
+  row-gap: 12px;
+}
+
+.award__title {
+  grid-area: 1/1/span 4/span 1;
+}
+
+.award__for1 {
+  grid-area: 1/2/span 2/span 1;
+}
+
+.award__app-title1 {
+  grid-area: 1/3/span 1/span 1;
+}
+
+.award__year1 {
+  grid-area: 1/4/span 2/span 1;
+}
+
+.award__app-description1 {
+  grid-area: 2/3/span 1/span 1;
+}
+
+.award__for2 {
+  grid-area: 3/2/span 2/span 1;
+}
+
+.award__app-title2 {
+  grid-area: 3/3/span 1/span 1;
+}
+
+.award__year2 {
+  grid-area: 3/4/span 2/span 1;
+}
+
+.award__app-description2 {
+  grid-area: 4/3/span 1/span 1;
+}
+
+.award__app-description {
+  padding-bottom: 58px;
+}

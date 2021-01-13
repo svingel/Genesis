@@ -1,1 +1,31 @@
 @import "_fonts";
+@import "mixins";
+
+body {
+    @include body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @include nomargin;
+}
+
+.title-wrappper {
+    margin-top: 96px;
+}
+
+.frame1-wrapper {
+    margin-top: 144px;
+}
+
+.group-wrapper {
+    margin-top: 91px;
+}
+
+.awards-wrapper {
+    margin-top: 101px;
+}
+
+.footer-wrapper {
+    margin-top: 114px
+}
+

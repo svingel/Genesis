@@ -1,0 +1,14 @@
+@import "_fonts";
+
+.frame1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+    &__tape1, &__tape2, &__tape3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}

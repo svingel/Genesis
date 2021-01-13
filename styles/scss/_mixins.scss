@@ -1,0 +1,14 @@
+@mixin body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1360px;
+    background-color: white;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 47px;
+    padding-top: 61px;
+}
+
+@mixin nomargin {
+    margin: 0 0;
+}
